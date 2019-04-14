@@ -28,7 +28,7 @@ def jobemail():
  
     server = smtplib.SMTP('smtp.office365.com', 587)
     server.starttls()
-    server.login("wang4105@purdue.edu", "YOUNG19951019.")
+    server.login("wang4105@purdue.edu", "XXX")
 
     # type subject
     SUBJECT = "Price updates " + str(datetime.now())[0:19]
